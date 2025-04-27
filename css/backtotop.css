@@ -1,0 +1,22 @@
+/* Стили для кнопки */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  #back-to-top.is-active{
+    visibility: visible;
+    opacity: 1;
+  }
+  #back-to-top:hover {
+    background-color: #3e8e41;
+  }
